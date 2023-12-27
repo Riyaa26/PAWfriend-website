@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your PAWfriend - Home</title>
+  <link rel="stylesheet" href="styles.css">
+
+
+  <style>
+    /* Additional style for the fixed header */
+    body {
+      margin: 0;
+    }
+    .fixed-header {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: #3498db; /* Choose the color you prefer */
+      padding: 10px;
+      text-align: center;
+      color: #fff;
+      font-size: 20px;
+      font-weight: bold;
+    }
+  </style>
+
+</head>
+<body>
+
+    <!-- Fixed Header -->
+  <div class="fixed-header">
+    Your PAWfriend - Street Animals Adoption
+  </div>
+
+
+
+
+  
+  
+  
+  <!-- Testimonials Page -->
+  <section id="testimonials" class="testimonials-section">
+    <h1>What People Say About Us</h1>
+
+    <!-- Star Rating Filter -->
+    <div class="star-filter">
+      <span class="star" data-rating="5">&#9733;</span>
+      <span class="star" data-rating="4">&#9733;</span>
+      <span class="star" data-rating="3">&#9733;</span>
+      <span class="star" data-rating="2">&#9733;</span>
+      <span class="star" data-rating="1">&#9733;</span>
+      <span class="reset" onclick="resetFilter()">Reset</span>
+    </div>
+
+    <!-- Testimonial Cards -->
+    <div class="testimonial-card" data-rating="5">
+      <img src="maitreyi.png" alt="User 1">
+      <div class="testimonial-content">
+        <h3>Maitreyi Ramakrishnan</h3>
+        <p class="rating">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p>"Adopting from Your PAWfriend was the best decision of our lives. Our furry friend brings so much joy to our home."</p>
+      </div>
+    </div>
+
+    <div class="testimonial-card" data-rating="4">
+      <img src="nirdesh.jpg" alt="User 2">
+      <div class="testimonial-content">
+        <h3>Nirdesh Gupta</h3>
+        <p class="rating">&#9733;&#9733;&#9733;&#9733;</p>
+        <p>"The team at Your PAWfriend truly cares about the animals. Their commitment to animal welfare is remarkable."</p>
+      </div>
+    </div>
+
+    <!-- Add more testimonial cards here -->
+
+  </section>
+
+  <!-- Navigation Links -->
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="adopt.html">Adopt</a>
+    <a href="about.html">About</a>
+    <a href="testimonials.html">Testimonials</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <footer class="contact-footer">
+    &copy; 2023 Your PAWfriend - Stray Animals Adoption
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

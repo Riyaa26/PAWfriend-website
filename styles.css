@@ -1,0 +1,229 @@
+/* Common style for sections */
+section {
+    padding: 20px;
+    background-color: #fff; /* White background for sections */
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft box shadow */
+  }
+  
+  /* Navigation style */
+  nav {
+    background-color: #3498db; /* Light blue background for navigation */
+    padding: 15px 0; /* Increased padding for better visibility */
+    text-align: center;
+    margin-bottom: 20px; /* Add margin at the bottom to accommodate contact footer */
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold; /* Make the text bold */
+    font-size: 16px; /* Adjust font size */
+    line-height: 1.5; /* Adjust line height */
+  }
+  
+  /* Active link style */
+  nav a:hover,
+  nav a:focus,
+  nav a:active {
+    color: #f39c12; /* Yellow color on hover/focus */
+  }
+  
+  /* Footer */
+  .contact-footer {
+    background-color: #2980b9; /* Darker blue background for footer */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* Testimonials Page */
+  .testimonials-section {
+    background-color: #aed6f1; /* Light blue background for testimonials section */
+  }
+  
+  /* Star Rating Filter Styles */
+  .star-filter {
+    margin-bottom: 20px;
+  }
+  
+  .star {
+    font-size: 25px;
+    color: #f39c12; /* Yellow color for stars */
+    cursor: pointer;
+  }
+  
+  .reset {
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  /* Testimonial Card Styles */
+  .testimonial-card {
+    display: flex;
+    align-items: center;
+    background-color: #fff; /* White background for cards */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft box shadow */
+    margin: 20px 0;
+    padding: 20px;
+  }
+  
+  .testimonial-card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  
+  .testimonial-content {
+    flex-grow: 1;
+  }
+  
+  .testimonial-content h3 {
+    color: #2c3e50; /* Dark blue text color for names */
+    margin-top: 0;
+  }
+  
+  .testimonial-content p.rating {
+    font-size: 20px;
+    margin: 0 0 10px;
+    color: #f39c12; /* Yellow color for stars in ratings */
+  }
+  
+  .testimonial-content p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #34495e; /* Darker blue text color for testimonials */
+  }
+  
+  /* About Us Page */
+  .about-section {
+    background-color: #f9e79f; /* Light yellow background for about section */
+  }
+  
+  /* Heading Styles */
+  .about-section h1,
+  .about-section h2 {
+    color: #2c3e50; /* Dark blue heading color */
+  }
+  
+  /* Paragraph Styles */
+  .about-section p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #34495e; /* Darker blue text color */
+  }
+  
+  /* Adopt Page */
+  .adopt-section {
+    background-color: #87c4f4; /* Light blue background for adopt section */
+  }
+  
+  /* Browse Animals Section */
+  .animal-card {
+    display: flex;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 15px 0;
+  }
+  
+  .animal-card img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .animal-info {
+    padding: 15px;
+  }
+  
+  .animal-info h3 {
+    margin-top: 0;
+  }
+  
+  /* Find Your New Companion Today Section */
+  .find-companion-section {
+    text-align: center;
+  }
+  
+  .find-companion-section p {
+    margin-bottom: 20px;
+  }
+  
+  .find-companion-section button {
+    background-color: #f39c12; /* Yellow button background */
+    color: #ffffff74;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .find-companion-section button:hover {
+    background-color: #e08e0b; /* Darker yellow on hover */
+  }
+  
+  /* Additional Content for Adopt Page */
+  .adopt-section p {
+    font-size: 18px;
+  }
+  
+  .adopt-section ol {
+    margin-top: 0;
+  }
+
+  
+  /* Contact Page */
+.contact-section {
+    background-color: #f5f5f5; /* Light gray background for contact section */
+  }
+  
+  .contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #2c3e50; /* Dark blue text color for labels */
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .contact-form textarea {
+    resize: vertical;
+  }
+  
+  .contact-form button {
+    background-color: #3498db; /* Light blue button background */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .contact-form button:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+  }
+  
